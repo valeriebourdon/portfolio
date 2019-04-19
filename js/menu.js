@@ -34,7 +34,7 @@ botleft.href = "index.html";
 
 // BOTTOM RIGHT
 var botright = document.createElement("img");
-botright.src = "/logo.svg";
+botright.src = "logo.svg";
 botright.style.display = "block";
 botright.style.position = "fixed";
 botright.style.textAlign = "right";
