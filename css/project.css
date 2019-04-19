@@ -1,0 +1,110 @@
+.projDesc, .nextProject, .img {
+  font-size:28px;
+}
+
+.notesName, .notesDesc, .projHover, .projList {
+  font-size:13px;
+  line-height:1.4;
+}
+
+.projDesc, .nextProject, .img{
+  display:block;
+  width:100%;
+  height:auto;
+  grid-column:3 / 8;
+  text-align:left;
+}
+
+.projHover, .projList {
+  grid-column: 3 / 8;
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 300;
+  letter-spacing:-.8px;
+  padding-bottom:6vh;
+}
+
+.notesName {
+  font-weight: 600;
+  grid-column: 3 / 4;
+  display:inline-block;
+}
+
+.notesDesc {
+  font-weight: 300;
+  grid-column: 4 / 8;
+  display:inline-block;
+  padding-bottom:6vh;
+}
+
+.nextProject {
+  padding-top:6vh;
+  padding-bottom:6vh;
+}
+
+ .img {
+   padding-bottom:1vh;
+ }
+
+ a {
+   text-decoration:underline;
+ }
+
+ @media (max-width:940px){
+   .projDesc, .nextProject, .img {
+     font-size:24px;
+   }
+
+   .projDesc, .nextProject, .img {
+     grid-column: 2 / 5;
+   }
+
+   .notesName {
+     grid-column: 2 / 5;
+   }
+
+   .notesDesc {
+     grid-column: 2 / 5;
+   }
+
+   .projHover, .projList {
+     grid-column: 2 / 5;
+   }
+ }
+
+ @media (max-width:740px){
+   .projDesc, .nextProject, .img {
+     font-size:20px;
+   }
+
+   .notesName, .notesDesc, .projHover, .projList {
+     font-size:11px;
+     line-height:1.5;
+   }
+
+   .projDesc, .nextProject, .img{
+     grid-column: 1 / 6;
+   }
+
+   .projHover, .projList {
+     grid-column: 1 / 6;
+     padding-bottom:4vh;
+   }
+
+   .notesName {
+     grid-column: 1 / 6;
+   }
+
+   .notesDesc {
+     grid-column: 1 / 6;
+     padding-bottom:4vh;
+   }
+
+   .nextProject {
+     padding-top:4vh;
+     padding-bottom:2vh;
+   }
+
+    .img {
+      padding-bottom:.5vh;
+    }
+ }

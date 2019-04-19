@@ -1,0 +1,80 @@
+.homeDesc, .projHover, .projList {
+  display:block;
+  font-size:28px;
+  grid-column: 3 / 8;
+  text-align: left;
+}
+
+.homeDesc {
+  padding-bottom:6vh;
+}
+
+.projHover {
+  display:inline;
+}
+
+.projList {
+  line-height:1.4;
+  padding-bottom:5vh;
+}
+
+.projTag {
+  display:inline;
+  font-family:'Overpass Mono', monospace;
+  font-weight:300;
+  font-size:13px;
+  letter-spacing:-.8px;
+}
+
+img {
+  width: 100%;
+  height:auto;
+}
+
+.projHover img {
+  display:block;
+  opacity:0;
+  position:fixed;
+  z-index:-100;
+  width:30%;  /* CHANGE THIS IN POINTERLOCATION.JS TO CHANGE PICTURE SIZE */
+  height:auto;
+  transition:.2s;
+
+}
+
+.projHover:hover img {
+  display:block;
+  opacity:1;
+  transition:.2s;
+}
+
+@media (max-width:940px){
+  .homeDesc, .projHover, .projList {
+    grid-column: 2 / 5;
+    font-size:24px;
+  }
+}
+
+@media (max-width:740px){
+  .homeDesc, .projHover, .projList {
+    grid-column: 1 / 6;
+    font-size:20px;
+  }
+
+  .homeDesc {
+    padding-bottom:3vh;
+  }
+
+  .projList {
+    line-height:1.5;
+    padding-bottom: 1vh;
+  }
+
+  .projTag {
+    font-size:11px;
+  }
+
+  .projHover:hover img {
+    display:none;
+  }
+}
