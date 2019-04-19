@@ -41,7 +41,7 @@ botright.style.textAlign = "right";
 botright.style.height = "auto";
 botright.style.zIndex = "100";
 botright.style.textDecoration = "none";
-botright.id = "colourSelect";
+botright.class = "colourSelect";
 
 function changeHeight(menuHeight) {
   if (menuHeight.matches) { // If media query matches

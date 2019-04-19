@@ -3,7 +3,7 @@ let iconThemes = ["invert(.0)","invert(.1)"];
 
 let hasInverted = false;
 
-let element = document.querySelector('#colourSelect');  //your logo icon
+let element = document.querySelector('.colourSelect');  //your logo icon
 let linkHover = document.querySelector('a');  //your logo icon
 
 element.addEventListener('click', function() {
