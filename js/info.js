@@ -31,7 +31,7 @@ if (incrementedIndex == projectList.projects.length) {
   incrementedIndex = 0;
 }
 //populate page with link, project name and tag with arrow
-next += "<a style='text-decoration:none;' href='" + projectList.projects[incrementedIndex].index + ".html'>" + projectList.projects[incrementedIndex].name + " " + projectList.projects[incrementedIndex].tags + " →" + "</a>";
+next += "<a style='text-decoration:none;' href='" + projectList.projects[incrementedIndex].index + ".html'>" + projectList.projects[incrementedIndex].name + " →" + "</a>";
 $(".nextProject").append(next);
 
 //DEBUG
