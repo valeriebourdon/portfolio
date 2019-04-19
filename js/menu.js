@@ -7,7 +7,7 @@ topleft.style.position = "fixed";
 topleft.style.textAlign = "left";
 topleft.style.zIndex = "100";
 topleft.style.textDecoration = "none";
-topleft.href = "/index.html";
+topleft.href = "index.html";
 
 // TOP RIGHT
 var topright = document.createElement("a");
@@ -18,7 +18,7 @@ topright.style.position = "fixed";
 topright.style.textAlign = "right";
 topright.style.zIndex = "100";
 topright.style.textDecoration = "none";
-topright.href = "/about.html";
+topright.href = "about.html";
 
 // BOTTOM LEFT
 var botleft = document.createElement("a");
@@ -29,7 +29,7 @@ botleft.style.position = "fixed";
 botleft.style.textAlign = "left";
 botleft.style.zIndex = "100";
 botleft.style.textDecoration = "none";
-botleft.href = "/index.html";
+botleft.href = "index.html";
 
 
 // BOTTOM RIGHT
