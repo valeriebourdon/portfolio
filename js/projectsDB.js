@@ -82,12 +82,12 @@ let projectList = {
      "tags":["Interactive Instillation"],
      "desc":"<i>Kiriko</i> is a user-based simulation and installation illustrating our relationship with the environment. "},
 
-    {"index":"motionstudio",
+    {"index":"motion",
      "name":"Motion Studio",
      "tags":["Experiments / Exercises"],
      "desc":"A series of personal experiments and exercises."},
 
-    {"index":"2d3dstudio",
+    {"index":"2d3d",
      "name":"2D/3D Studio",
      "tags":["Experiments / Exercises"],
      "desc":"A series of personal 3D renders and illustrations."},
