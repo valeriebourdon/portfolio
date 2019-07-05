@@ -3,19 +3,14 @@ let projectList = {
   "projects": [
     {"index":"obsidian",
      "name":"Obsidian",
-     "tags":["Interactive Instillation"],
+     "tags":["Interactive installation"],
      "desc":"A user-based interactive installation that builds a virtual community based on the collected depth data of previous participants.",
    },
 
-    {"index":"flint",
-     "name":"Flint Water Crisis",
-     "tags":["Poster Design"],
-     "desc":"A1 visual statement poster. Won a <a target='_blank' href='https://www.appliedartsmag.com/aace/'>Young & Student AACE Award</a> and was published in the 2016 student edition of <a target='_blank' href='https://appliedarts.ca/'>Applied Arts Magazine</a>."},
-
-    {"index":"pictureperfect",
-     "name":"Picture Perfect",
-     "tags":["Motion Design"],
-     "desc":"A summarized evolution of the camera."},
+    {"index":"motion",
+    "name":"Motion Studio",
+    "tags":["Experiments / Exercises"],
+    "desc":"A series of personal experiments and exercises."},
 
     {"index":"studioloco",
      "name":"Studio Loco",
@@ -27,10 +22,20 @@ let projectList = {
      "tags":["Exhibition Design"],
      "desc":"Graphic design vernissage poster for the graduating class of 2016 at Dawson College."},
 
-    {"index":"windsoftheworld",
-     "name":"Winds of the World",
-     "tags":["Web Design"],
-     "desc":"<a href='https://hybrid.concordia.ca/v_ourdo/cart433/#'>Winds of the World</a> is an (in progress) interactive webGL application depicting global wind speeds, temperatures and weather through an abstract, minimalistic interface."},
+     {"index":"pictureperfect",
+      "name":"Picture Perfect",
+      "tags":["Motion Design"],
+      "desc":"A summarized evolution of the camera."},
+
+      {"index":"windsoftheworld",
+       "name":"Winds of the World",
+       "tags":["Web Design"],
+       "desc":"<a href='https://hybrid.concordia.ca/v_ourdo/cart433/#'>Winds of the World</a> is an (in progress) interactive webGL application depicting global wind speeds, temperatures and weather through an abstract, minimalistic interface."},
+
+     {"index":"flint",
+      "name":"Flint Water Crisis",
+      "tags":["Poster Design"],
+      "desc":"A1 visual statement poster. Won a <a target='_blank' href='https://www.appliedartsmag.com/aace/'>Young & Student AACE Award</a> and was published in the 2016 student edition of <a target='_blank' href='https://appliedarts.ca/'>Applied Arts Magazine</a>."},
 
     {"index":"collectorsbox",
      "name":"Collector's Box",
@@ -62,10 +67,10 @@ let projectList = {
      "tags":["Tangible Media"],
      "desc":"A lonely box that yearns for attention. Collaboration with <a target='_blank' href='http://www.miha-ko.ca/'>Codrin Tablan Negrei</a>."},
 
-    {"index":"crookedcat",
-     "name":"Crooked Cat",
-     "tags":["Brand Identity / Illustration"],
-     "desc":"An illustrative logo created for the fictional band 'Crooked Cats'."},
+    // {"index":"crookedcat",
+    //  "name":"Crooked Cat",
+    //  "tags":["Brand Identity / Illustration"],
+    //  "desc":"An illustrative logo created for the fictional band 'Crooked Cats'."},
 
     {"index":"chroma",
      "name":"Chroma",
@@ -82,20 +87,15 @@ let projectList = {
      "tags":["Interactive Instillation"],
      "desc":"<i>Kiriko</i> is a user-based simulation and installation illustrating our relationship with the environment. "},
 
-    {"index":"motion",
-     "name":"Motion Studio",
-     "tags":["Experiments / Exercises"],
-     "desc":"A series of personal experiments and exercises."},
-
     {"index":"2d3d",
      "name":"2D/3D Studio",
      "tags":["Experiments / Exercises"],
      "desc":"A series of personal 3D renders and illustrations."},
-
-    {"index":"interactionstudio",
-     "name":"Interaction Studio",
-     "tags":["Experiments / Exercises"],
-     "desc":"A series of personal experiments and exercises."},
+  
+    // {"index":"interactionstudio",
+    //  "name":"Interaction Studio",
+    //  "tags":["Experiments / Exercises"],
+    //  "desc":"A series of personal experiments and exercises."},
 
     {"index":"digitalphotography",
      "name":"Digital Photography",
