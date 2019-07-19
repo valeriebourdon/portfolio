@@ -16,7 +16,7 @@ let projectList = {
      {"index":"twocities",
       "name":"Two Cities",
       "tags":["Publication / Film Photography"],
-      "desc":"A series of digital photographs exploring blissful moments, the ephemeral, and anonymity.",
+      "desc":"A miniature black and white film photo series capturing familiarities within unfamiliar environments.",
       "visible":true,},
 
      {"index":"windsoftheworld",
