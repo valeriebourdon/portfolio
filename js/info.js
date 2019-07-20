@@ -5,6 +5,18 @@ var page = path.split("/").pop(); //remove the "/" from the path
 var pageName = page.replace(".html",""); //remove the ".html" at the end of it
 
 
+//codrin 
+let sortedVisibleProject = [];
+
+for (var i = 0; i < projectList.projects.length; i++) {
+  if(projectList.projects[i].visible == true)
+  {
+    sortedVisibleProject[i] += projectList.projects[i];
+    // console.log(sortedVisibleProject[i].length);
+  }
+}
+console.log(sortedVisibleProject);
+
 //go through every project in the list , if the name of the project corresponds to the page name, store that index
 for (i in projectList.projects) {
   if(projectList.projects[i].index == pageName){
@@ -25,7 +37,18 @@ $(".projDesc").append(desc);
 //add the next project info to the page
 let next = "";
 //increments to the next project
-let incrementedIndex = parseInt(currentIndex) + 1;
+// let incrementedIndex = parseInt(currentIndex) + 1;
+
+let incrementedIndex;
+
+//increments to the next visible project
+if (projectList.projects[i].visible == true) {
+  incrementedIndex = parseInt(currentIndex) + 1;
+} else {
+  incrementedIndex = parseInt(currentIndex)++;
+}
+
+
 //if the current page index length is equal to the number of projects (projectList.projects)
 if (incrementedIndex == projectList.projects.length) {
   //reloops to the first project in the object
