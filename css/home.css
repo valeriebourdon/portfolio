@@ -1,6 +1,6 @@
 .homeDesc, .projHover, .projList {
   display:block;
-  font-size:28px;
+  font-size:30px;
   grid-column: 3 / 8;
   text-align: left;
 }
@@ -48,7 +48,14 @@ img {
   transition:.2s;
 }
 
-@media (max-width:940px){
+@media (max-width:1200px) {
+  .homeDesc, .projHover, .projList {
+    font-size:26px;
+  }
+
+}
+
+@media (max-width:1000px){
   .homeDesc, .projHover, .projList {
     grid-column: 2 / 5;
     font-size:24px;

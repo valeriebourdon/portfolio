@@ -1,10 +1,11 @@
 .projDesc, .nextProject, .img {
-  font-size:28px;
+  font-size:30px;
 }
 
-.notesName, .notesDesc, .projHover, .projList {
+.notesName, .projHover, .projList {
   font-size:13px;
-  line-height:1.4;
+  line-height:1.5;
+  font-weight: 300;
 }
 
 .projDesc, .nextProject, .img{
@@ -19,21 +20,24 @@
   grid-column: 3 / 8;
   font-family: 'Overpass Mono', monospace;
   font-weight: 300;
-  letter-spacing:-.8px;
-  padding-bottom:6vh;
+  letter-spacing:-.9px;  padding-bottom:6vh;
 }
 
 .notesName {
-  font-weight: 600;
-  grid-column: 3 / 4;
-  display:inline-block;
+  font-family: 'Overpass Mono', monospace;
+  grid-column: 3 / 8;
+  letter-spacing:-.8px;
+  padding-top: 1vh;
+  padding-bottom: 6vh;
 }
 
 .notesDesc {
+  font-size: 16px;
+  line-height: 1.4;
   font-weight: 300;
-  grid-column: 4 / 8;
-  display:inline-block;
-  padding-bottom:6vh;
+  grid-column: 3 / 8;
+  padding-top:1vh;
+  padding-bottom:1vh;
 }
 
 .nextProject {
@@ -49,7 +53,7 @@
    text-decoration:underline;
  }
 
- @media (max-width:940px){
+ @media (max-width:1000px){
    .projDesc, .nextProject, .img {
      font-size:24px;
    }

@@ -88,8 +88,8 @@ let projectList = {
     {"index":"chroma",
      "name":"Chroma",
      "tags":["Tangible Media"],
-     "desc":"<i>Chroma</i> is a wearable technology aimed towards performance artists. Collaboration with <a target='_blank' href='http://www.miha-ko.ca/'>Codrin Tablan Negrei</a>.",
-    "visible":false,},
+     "desc":"<i>Chroma</i> is a wearable technology aimed towards performance artists. The dress uses an accelerometer and tension sensor to provide unique and instant light feedback (hue, saturation, value, and animated patterns) on the wearer’s left arm. Collaboration with <a target='_blank' href='http://www.miha-ko.ca/'>Codrin Tablan Negrei</a>.",
+    "visible":true,},
 
     {"index":"spring",
      "name":"Spring",
