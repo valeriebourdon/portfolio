@@ -45,7 +45,6 @@ botright.class = "colourSelect";
 
 function changeHeight(menuHeight) {
   if (menuHeight.matches) { // If media query matches
-    // document.body.style.backgroundColor = "yellow";
     var heightAmount = "2vh";
     var widthAmount = "6vw";
     topleft.style.top = heightAmount;
@@ -56,10 +55,8 @@ function changeHeight(menuHeight) {
     botright.style.right = widthAmount;
     botright.style.width = "20px";
     botleft.style.display = "none";
-    // botright.style.display = "none";
 
   } else {
-   // document.body.style.backgroundColor = "pink";
    var heightAmount = "6vh";
    var widthAmount = "4vw";
    topleft.style.top = heightAmount;
