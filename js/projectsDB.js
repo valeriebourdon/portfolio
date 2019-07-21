@@ -1,6 +1,12 @@
 //PORJECT LIST
 let projectList = {
   "projects": [
+    {"index":"twocities",
+     "name":"Two Cities",
+     "tags":["Publication / Film Photography"],
+     "desc":"A miniature black and white film photo series capturing familiarities within unfamiliar environments.",
+     "visible":true},
+
     {"index":"obsidian",
      "name":"Obsidian",
      "tags":["Interactive Installation"],
@@ -12,12 +18,6 @@ let projectList = {
      "tags":["Brand Identity"],
      "desc":"A refreshed and modernized logo and branding mockup for Studio Loco, a recording studio in Montreal.",
      "visible":true},
-
-     {"index":"twocities",
-      "name":"Two Cities",
-      "tags":["Publication / Film Photography"],
-      "desc":"A miniature black and white film photo series capturing familiarities within unfamiliar environments.",
-      "visible":true},
 
      {"index":"windsoftheworld",
       "name":"Winds of the World",
