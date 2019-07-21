@@ -3,7 +3,7 @@ let projectList = {
   "projects": [
     {"index":"obsidian",
      "name":"Obsidian",
-     "tags":["Interactive installation"],
+     "tags":["Interactive Installation"],
      "desc":"A user-based interactive installation that builds a virtual community based on the collected depth data of previous participants.",
      "visible":true},
 
