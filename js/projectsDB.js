@@ -35,7 +35,7 @@ let projectList = {
       "name":"Picture Perfect",
       "tags":["Motion Design"],
       "desc":"A summarized evolution of the camera.",
-      "visible":false},
+      "visible":true},
 
      {"index":"flint",
       "name":"Flint Water Crisis",
