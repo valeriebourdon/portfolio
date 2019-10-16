@@ -13,6 +13,18 @@ let projectList = {
      "desc":"A user-based interactive installation that builds a virtual community based on the collected depth data of previous participants.",
      "visible":true},
 
+     {"index":"tag",
+      "name":"TAG Conference",
+      "tags":["Motion Design"],
+      "desc":"  Motion teaser created for Canada's primary annual conference to get informed about commerce in the digital age.",
+      "visible":true},
+
+      {"index":"motion",
+      "name":"Motion Dailies",
+      "tags":["Experiments / Exercises"],
+      "desc":"A series of personal motion experiments, exercises, and sketches.",
+      "visible":true},
+
     {"index":"studioloco",
      "name":"Studio Loco",
      "tags":["Brand Identity"],
@@ -89,7 +101,7 @@ let projectList = {
      "name":"Chroma",
      "tags":["Tangible Media"],
      "desc":"<i>Chroma</i> is a wearable technology aimed towards performance artists. The dress uses an accelerometer and tension sensor to provide unique and instant light feedback (hue, saturation, value, and animated patterns) on the wearer’s left arm. Collaboration with <a target='_blank' href='http://www.miha-ko.ca/'>Codrin Tablan Negrei</a>.",
-    "visible":true},
+    "visible":false},
 
     {"index":"spring",
      "name":"Spring",
@@ -101,36 +113,31 @@ let projectList = {
      "name":"Kiriko",
      "tags":["Interactive Instillation"],
      "desc":"<i>Kiriko</i> is a user-based simulation and installation illustrating our relationship with the environment.",
-     "visible":true},
-
-    {"index":"motion",
-    "name":"Motion Studio",
-    "tags":["Experiments / Exercises"],
-    "desc":"A series of personal experiments and exercises.",
-    "visible":true},
-
-    {"index":"2d3d",
-     "name":"2D/3D Studio",
-     "tags":["Experiments / Exercises"],
-     "desc":"A series of personal 3D renders and illustrations.",
-     "visible":true},
-
-    {"index":"interactionstudio",
-     "name":"Interaction Studio",
-     "tags":["Experiments / Exercises"],
-     "desc":"A series of personal experiments and exercises.",
      "visible":false},
 
     {"index":"digitalphotography",
-     "name":"Digital Photography",
-     "tags":["Archive"],
-     "desc":"A series of digital photographs exploring blissful moments, the ephemeral, and anonymity.",
+     "name":"Bliss",
+     "tags":["Digital Photography"],
+     "desc":"A short photo series exploring blissful moments, the ephemeral, and anonymity.",
      "visible":true},
 
     {"index":"filmphotography",
-     "name":"Film Photography",
-     "tags":["Archive"],
-     "desc":"A series of film photographs exploring the everyday.",
+     "name":"Ephemera",
+     "tags":["Film Photography"],
+     "desc":"A short photo series exploring light and translucency.",
      "visible":true},
+
+     {"index":"2d3d",
+      "name":"2D/3D Studio",
+      "tags":["Experiments / Exercises"],
+      "desc":"A series of personal 3D renders and illustrations.",
+      "visible":true},
+
+     {"index":"interactionstudio",
+      "name":"Interaction Studio",
+      "tags":["Experiments / Exercises"],
+      "desc":"A series of personal experiments and exercises.",
+      "visible":false},
+
   ]
 }
