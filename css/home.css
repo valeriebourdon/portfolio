@@ -1,3 +1,12 @@
+@font-face{
+	font-family: 'HKGrotesk-Regular';
+	src: url('HKGrotesk-Regular.eot');
+	src: url('HKGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('HKGrotesk-Regular.woff') format('woff'),
+	     url('HKGrotesk-Regular.ttf') format('truetype'),
+	     url('HKGrotesk-Regular.svg#webfont') format('svg');
+}
+
 .homeDesc, .projHover, .projList {
   display:block;
   font-size:30px;
@@ -20,10 +29,10 @@
 
 .projTag {
   display:inline;
-  font-family:'Overpass Mono', monospace;
+  font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
   font-weight:300;
   font-size:13px;
-  letter-spacing:-.8px;
+  letter-spacing:.1px;
 }
 
 img {

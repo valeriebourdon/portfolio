@@ -18,15 +18,16 @@
 
 .projHover, .projList {
   grid-column: 3 / 8;
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
   font-weight: 300;
-  letter-spacing:-.9px;  padding-bottom:6vh;
+  letter-spacing:.1px;
+  padding-bottom:6vh;
 }
 
 .notesName {
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
   grid-column: 3 / 8;
-  letter-spacing:-.8px;
+  letter-spacing:.1px;
   padding-top: 1vh;
   padding-bottom: 6vh;
 }
@@ -38,6 +39,7 @@
   grid-column: 3 / 8;
   padding-top:1vh;
   padding-bottom:1vh;
+  letter-spacing:-.05px;
 }
 
 .nextProject {

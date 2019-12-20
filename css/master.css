@@ -1,6 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:300');
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:200&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Overpass:300,500');
+@font-face{
+	font-family: 'HKGrotesk-Regular';
+	src: url('HKGrotesk-Regular.eot');
+	src: url('HKGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('HKGrotesk-Regular.woff') format('woff'),
+	     url('HKGrotesk-Regular.ttf') format('truetype'),
+	     url('HKGrotesk-Regular.svg#webfont') format('svg');
+}
 
 html{
   scroll-behavior: smooth;
@@ -11,8 +16,8 @@ body {
   color:#464650;
   margin:0;
   padding:0;
-  font-family: 'Overpass', sans-serif;
-  font-weight: 600;
+  font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
+  font-weight: Regular;
   font-size:13px;
   line-height:1.2;
   letter-spacing: 1;
