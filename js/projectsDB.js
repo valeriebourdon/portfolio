@@ -137,7 +137,7 @@ let projectList = {
       "name":"2D/3D Studio",
       "tags":["Experiments / Exercises"],
       "desc":"A series of personal 3D renders and illustrations.",
-      "visible":true},
+      "visible":false},
 
      {"index":"interactionstudio",
       "name":"Interaction Studio",
