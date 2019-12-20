@@ -21,9 +21,15 @@ let projectList = {
 
       {"index":"motion",
       "name":"Motion Dailies",
-      "tags":["Experiments / Exercises"],
+      "tags":["Motion Design / Illustration"],
       "desc":"A series of personal motion experiments, exercises, and sketches.",
       "visible":true},
+
+      {"index":"artifice",
+       "name":"Artifact/Artifice",
+       "tags":["Publication / 3D"],
+       "desc":"A fictional publication documenting abstractions of our current day plastic commodities.",
+       "visible":true},
 
     {"index":"studioloco",
      "name":"Studio Loco",
