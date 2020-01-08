@@ -1,6 +1,12 @@
 //PORJECT LIST
 let projectList = {
   "projects": [
+    {"index":"present",
+     "name":"Present Magazine",
+     "tags":["Motion Design"],
+     "desc":"Motion design created for Banque Nationale's biannual magazine 'Present' following the theme of movement. Completed at Sid Lee.",
+     "visible":true},
+
     {"index":"twocities",
      "name":"Two Cities",
      "tags":["Publication / Film Photography"],
@@ -16,7 +22,7 @@ let projectList = {
      {"index":"tag",
       "name":"TAG Conference",
       "tags":["Motion Design"],
-      "desc":"  Motion teaser created for Canada's primary annual conference to get informed about commerce in the digital age.",
+      "desc":"  Motion teaser created for Canada's primary annual conference to get informed about commerce in the digital age. Completed at Sid Lee.",
       "visible":true},
 
       {"index":"motion",
