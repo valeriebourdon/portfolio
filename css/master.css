@@ -12,8 +12,8 @@ html{
 }
 
 body {
-  background: #F7F7FA;
-  color:#464650;
+  background: #F7F7FA; /*F7F7FA*/
+  color:#464650; /*464650*/
   margin:0;
   padding:0;
   font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
@@ -30,14 +30,14 @@ div.hidden {
 .masterContainer {
   display:inline-block;
   position:relative;
-  margin:0 auto;
+	margin:0 auto;
   margin-top:5.5vh;
 }
 
 .masterGrid {
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(13, 1fr);
+  /*grid-gap: 10px;*/
 }
 
 /* LINKS / SELECTIONS */
@@ -78,14 +78,35 @@ a:hover {
   background: transparent;
 }
 
+.fullscreenFrame {
+	height: 82vh;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+.fullscreenPic {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+
 
 @media (max-width:1000px){
   body {
     font-size:12px;
     line-height: 1.3;
   }
+
   .masterGrid {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(9, 1fr);
+		margin: 0;
+		padding: 0;
   }
 }
 
@@ -106,4 +127,22 @@ a:hover {
     margin-left:6vw;
     margin-right:6vw;
   }
+
+	.fullscreenFrame {
+		height: auto;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+		overflow: hidden;
+		background-color: black;
+	}
+
+	.fullscreenPic {
+		position: relative;
+		display: block;
+		height: auto;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
 }

@@ -1,45 +1,50 @@
-.projDesc, .nextProject, .img {
+.projDesc, .nextProject {
   font-size:30px;
 }
 
 .notesName, .projHover, .projList {
-  font-size:13px;
+  font-size:12px;
   line-height:1.5;
   font-weight: 300;
 }
 
-.projDesc, .nextProject, .img{
+.projDesc, .nextProject, .img {
   display:block;
   width:100%;
   height:auto;
-  grid-column:3 / 8;
+  grid-column: 4 / 11;
   text-align:left;
 }
 
 .projHover, .projList {
-  grid-column: 3 / 8;
+  grid-column: 4 / 11;
   font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
   font-weight: 300;
   letter-spacing:.1px;
-  padding-bottom:6vh;
+  padding-top:12px;
+  padding-bottom:8vh;
 }
 
 .notesName {
   font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
-  grid-column: 3 / 8;
+  grid-column: 4 / 4;
+  font-weight: 300;
   letter-spacing:.1px;
-  padding-top: 1vh;
   padding-bottom: 6vh;
 }
 
 .notesDesc {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
   font-weight: 300;
-  grid-column: 3 / 8;
-  padding-top:1vh;
-  padding-bottom:1vh;
+  grid-column: 5 / 11;
+  padding-bottom:4vh;
   letter-spacing:-.05px;
+}
+
+.buffer {
+  grid-column: 5 / 11;
+  padding-bottom:12vh;
 }
 
 .nextProject {
@@ -47,33 +52,47 @@
   padding-bottom:6vh;
 }
 
- .img {
-   padding-bottom:0;
+ .img, img {
+   padding: 0;
+   margin: 0;
+   padding-top: 1px;
+   padding-bottom: 1px;
  }
 
  a {
    text-decoration:underline;
  }
 
+
  @media (max-width:1000px){
    .projDesc, .nextProject, .img {
-     font-size:24px;
+     font-size: 24px;
    }
 
    .projDesc, .nextProject, .img {
-     grid-column: 2 / 5;
+     grid-column: 3 / 8;
    }
 
    .notesName {
-     grid-column: 2 / 5;
+     grid-column: 3 / 3;
+     padding-top: 0vh;
+     padding-bottom: 0vh;
    }
 
    .notesDesc {
-     grid-column: 2 / 5;
+     font-size: 16px;
+     grid-column: 4 / 8;
+     padding-top: 0vh;
+     padding-bottom: 4vh;
+   }
+
+   .buffer {
+     grid-column: 3 / 8;
+     padding-bottom:8vh;
    }
 
    .projHover, .projList {
-     grid-column: 2 / 5;
+     grid-column: 3 / 8;
    }
  }
 
@@ -82,9 +101,18 @@
      font-size:20px;
    }
 
-   .notesName, .notesDesc, .projHover, .projList {
+   .projHover, .projList {
      font-size:11px;
      line-height:1.5;
+   }
+
+   .notesDesc {
+     font-size:14px;
+     line-height:1.5;
+   }
+
+   .notesName {
+     visibility: hidden;
    }
 
    .projDesc, .nextProject, .img{
@@ -93,24 +121,28 @@
 
    .projHover, .projList {
      grid-column: 1 / 6;
+     padding-top:6px;
      padding-bottom:4vh;
    }
 
    .notesName {
+     font-weight: 600;
      grid-column: 1 / 6;
    }
 
    .notesDesc {
      grid-column: 1 / 6;
-     padding-bottom:4vh;
+     padding-bottom:1vh;
    }
+
+    .buffer {
+      grid-column: 1 / 6;
+      padding-bottom:8vh;
+    }
+
 
    .nextProject {
      padding-top:4vh;
      padding-bottom:2vh;
    }
-
-    .img {
-      padding-bottom:0;
-    }
  }

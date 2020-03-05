@@ -10,19 +10,19 @@ let projectList = {
     {"index":"twocities",
      "name":"Two Cities",
      "tags":["Publication / Film Photography"],
-     "desc":"A miniature black and white film photo series capturing familiarities within unfamiliar environments.",
+     "desc":"Two Cities is a miniature black and white film photo series capturing familiarities within unfamiliar environments.",
      "visible":true},
 
     {"index":"obsidian",
      "name":"Obsidian",
      "tags":["Interactive Installation"],
-     "desc":"A user-based interactive installation that builds a virtual community based on the collected depth data of previous participants.",
+     "desc":"Obsidian is a cross-medium, user-generated interactive experience.",
      "visible":true},
 
      {"index":"tag",
       "name":"TAG Conference",
       "tags":["Motion Design"],
-      "desc":"  Motion teaser created for Canada's primary annual conference to get informed about commerce in the digital age. Completed at Sid Lee.",
+      "desc":"Motion teaser created for TAG, a Canadian annual conference about commerce in the digital age.",
       "visible":true},
 
       {"index":"motion",
@@ -34,7 +34,7 @@ let projectList = {
       {"index":"artifice",
        "name":"Artifact/Artifice",
        "tags":["Publication / 3D"],
-       "desc":"A fictional publication documenting abstractions of our current day plastic commodities.",
+       "desc":"Artifact/Artifice is an afictional publication documenting abstractions of our current day plastic commodities.",
        "visible":true},
 
     {"index":"studioloco",
@@ -58,7 +58,7 @@ let projectList = {
      {"index":"pictureperfect",
       "name":"Picture Perfect",
       "tags":["Motion Design"],
-      "desc":"A summarized evolution of the camera.",
+      "desc":"Picture Perfect is a short motion piece that summarizes the evolution of the camera.",
       "visible":true},
 
      {"index":"flint",
@@ -88,13 +88,13 @@ let projectList = {
     {"index":"keepup",
      "name":"Keep Up",
      "tags":["Motion Design / Illustration"],
-     "desc":"<i>Keep Up</i> is a motion graphic commentary on how humans affect the environment due to the overconsumption of natural materials.",
+     "desc":"Keep Up< is a motion graphic commentary on how humans affect the environment due to the overconsumption of natural materials.",
      "visible":false},
 
     {"index":"eradise",
      "name":"Eradise",
      "tags":["Video Game Design / 3D"],
-     "desc":"<i>Eradise</i> is an explorative third person mini-game made in Unity.",
+     "desc":"Eradise is an explorative third person mini-game made in Unity.",
      "visible":false},
 
     {"index":"lonebox",
