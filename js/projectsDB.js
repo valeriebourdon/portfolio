@@ -4,7 +4,7 @@ let projectList = {
     {"index":"present",
      "name":"Present Magazine",
      "tags":["Motion Design"],
-     "desc":"Motion design created for Banque Nationale's biannual magazine 'Present' following the theme of movement. Completed at Sid Lee.",
+     "desc":"Animated case study created for Banque Nationale's biannual magazine 'Present' following the theme of movement.",
      "visible":true},
 
     {"index":"twocities",

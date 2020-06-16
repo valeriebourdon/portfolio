@@ -1,5 +1,5 @@
 .projDesc, .nextProject {
-  font-size:30px;
+  font-size:31px;
 }
 
 .notesName, .projHover, .projList {
@@ -12,12 +12,12 @@
   display:block;
   width:100%;
   height:auto;
-  grid-column: 4 / 11;
+  grid-column: 3 / 12;
   text-align:left;
 }
 
 .projHover, .projList {
-  grid-column: 4 / 11;
+  grid-column: 3 / 12;
   font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
   font-weight: 300;
   letter-spacing:.1px;
@@ -27,23 +27,23 @@
 
 .notesName {
   font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
-  grid-column: 4 / 4;
+  grid-column: 3 / 3;
   font-weight: 300;
   letter-spacing:.1px;
   padding-bottom: 6vh;
 }
 
 .notesDesc {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.4;
   font-weight: 300;
-  grid-column: 5 / 11;
+  grid-column: 4 / 11;
   padding-bottom:4vh;
   letter-spacing:-.05px;
 }
 
 .buffer {
-  grid-column: 5 / 11;
+  grid-column: 3 / 12;
   padding-bottom:12vh;
 }
 
@@ -66,7 +66,7 @@
 
  @media (max-width:1000px){
    .projDesc, .nextProject, .img {
-     font-size: 24px;
+     font-size: 25px;
    }
 
    .projDesc, .nextProject, .img {
