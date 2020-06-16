@@ -43,11 +43,11 @@ let projectList = {
      "desc":"A refreshed and modernized logo and branding mockup for Studio Loco, a recording studio in Montreal.",
      "visible":true},
 
-     {"index":"windsoftheworld",
-      "name":"Winds of the World",
-      "tags":["Web Design"],
-      "desc":"<a href='https://hybrid.concordia.ca/v_ourdo/cart433/#'>Winds of the World</a> is an (in progress) interactive webGL application depicting global wind speeds, temperatures and weather through an abstract, minimalistic interface.",
-      "visible":false},
+    {"index":"typeseries",
+     "name":"Type Series",
+     "tags":["3D / Typography"],
+     "desc":"A personal 3D type series using tone-on-tone textures and contrasting forms.",
+     "visible":true},
 
     {"index":"stepforward",
      "name":"Step Forward",
@@ -60,6 +60,12 @@ let projectList = {
       "tags":["Motion Design"],
       "desc":"Picture Perfect is a short motion piece that summarizes the evolution of the camera.",
       "visible":true},
+
+      {"index":"windsoftheworld",
+       "name":"Winds of the World",
+       "tags":["Web Design"],
+       "desc":"<a href='https://hybrid.concordia.ca/v_ourdo/cart433/#'>Winds of the World</a> is an (in progress) interactive webGL application depicting global wind speeds, temperatures and weather through an abstract, minimalistic interface.",
+       "visible":false},
 
      {"index":"flint",
       "name":"Flint Water Crisis",
