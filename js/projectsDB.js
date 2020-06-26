@@ -61,6 +61,12 @@ let projectList = {
       "desc":"Picture Perfect is a short motion piece that summarizes the evolution of the camera.",
       "visible":true},
 
+      {"index":"logistec",
+       "name":"Logistec",
+       "tags":["Branding / Stationery"],
+       "desc":"Brand stationery revamp and uniformization for Logistec Corporation, a stevedoring and terminal operator in eastern Canada.",
+       "visible":true},
+
       {"index":"windsoftheworld",
        "name":"Winds of the World",
        "tags":["Web Design"],
@@ -156,6 +162,5 @@ let projectList = {
       "tags":["Experiments / Exercises"],
       "desc":"A series of personal experiments and exercises.",
       "visible":false},
-
   ]
 }
