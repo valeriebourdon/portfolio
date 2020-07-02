@@ -22,7 +22,7 @@
   font-weight: 300;
   letter-spacing:.1px;
   padding-top:12px;
-  padding-bottom:8vh;
+  padding-bottom:7vh;
 }
 
 .notesName {
@@ -31,6 +31,10 @@
   font-weight: 300;
   letter-spacing:.1px;
   padding-bottom: 6vh;
+}
+
+.notesName, .notesDesc {
+  padding-top:2vh;
 }
 
 .notesDesc {
