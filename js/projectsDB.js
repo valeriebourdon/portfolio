@@ -33,7 +33,6 @@ let projectList = {
       "visible":false},
 
 
-
       {"index":"motion",
       "name":"Motion Dailies",
       "tags":["Motion Design / Illustration"],
@@ -74,7 +73,7 @@ let projectList = {
        "name":"Logistec",
        "tags":["Branding / Stationery"],
        "desc":"Brand stationery revamp and uniformization for Logistec Corporation, a stevedoring and terminal operator in eastern Canada.",
-       "visible":true},
+       "visible":false},
 
       {"index":"windsoftheworld",
        "name":"Winds of the World",
