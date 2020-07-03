@@ -25,6 +25,15 @@ let projectList = {
       "desc":"Motion teaser created for TAG, a Canadian annual conference about commerce in the digital age.",
       "visible":true},
 
+
+      {"index":"novarose",
+      "name":"Nova Rose",
+      "tags":["Branding / Photography"],
+      "desc":"Photography, album cover, and promotional material for Montreal-based singer Nova Rose's song 'Just In Case'.",
+      "visible":false},
+
+
+
       {"index":"motion",
       "name":"Motion Dailies",
       "tags":["Motion Design / Illustration"],
@@ -52,7 +61,7 @@ let projectList = {
     {"index":"stepforward",
      "name":"Step Forward",
      "tags":["Exhibition Design"],
-     "desc":"Graphic design vernissage poster for the graduating class of 2016 at Dawson College.",
+     "desc":"Graphic design vernissage poster and art direction for the graduating class of 2016 at Dawson College.",
      "visible":true},
 
      {"index":"pictureperfect",
