@@ -7,17 +7,17 @@ let projectList = {
      "desc":"Animated case study created for Banque Nationale's biannual magazine 'Present' following the theme of movement.",
      "visible":true},
 
-    {"index":"twocities",
-     "name":"Two Cities",
-     "tags":["Publication / Film Photography"],
-     "desc":"Two Cities is a miniature black and white film photo series capturing familiarities within unfamiliar environments.",
-     "visible":true},
-
     {"index":"obsidian",
      "name":"Obsidian",
-     "tags":["Interactive Installation"],
+     "tags":["Motion Design / Interactive Installation"],
      "desc":"Obsidian is a cross-medium, user-generated interactive experience.",
      "visible":true},
+
+     {"index":"pow",
+      "name":"POW",
+      "tags":["Motion Design"],
+      "desc":"Kinetic typography and motion design within a promotional video for Protect Our Winters Canada (POW), a non-profit fighting climate change.",
+      "visible":true},
 
      {"index":"tag",
       "name":"TAG Conference",
@@ -25,6 +25,11 @@ let projectList = {
       "desc":"Motion teaser created for TAG, a Canadian annual conference about commerce in the digital age.",
       "visible":true},
 
+     {"index":"twocities",
+       "name":"Two Cities",
+       "tags":["Publication / Film Photography"],
+       "desc":"Two Cities is a miniature black and white film photo series capturing familiarities within unfamiliar environments.",
+       "visible":true},
 
       {"index":"novarose",
       "name":"Nova Rose",
