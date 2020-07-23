@@ -14,8 +14,7 @@ let sortedVisibleProject = []; //EMPTY ARRAY
 
 for (var i = 0; i < projectList.projects.length; i++) {
   //IF U WANT IT TO SHOW
-  if(projectList.projects[i].visible == true)
-  {
+  //if(projectList.projects[i].visible == true) {
     //JAVASCRIPT OBJECT HERE !!!
     var project = {
       index: projectList.projects[i].index,
@@ -25,7 +24,7 @@ for (var i = 0; i < projectList.projects.length; i++) {
       visible: projectList.projects[i].visible
     }
     sortedVisibleProject.push(project); //INCLUDES IT INTO THE NEW ARRAY
-  }
+  //}
 }
 
 //go through every project in the list , if the name of the project corresponds to the page name, store that index
