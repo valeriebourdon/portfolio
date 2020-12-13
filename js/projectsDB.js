@@ -44,6 +44,12 @@ let projectList = {
       "desc":"A series of personal motion experiments, exercises, and sketches.",
       "visible":true},
 
+      {"index":"motion2",
+      "name":"Illustration Dailies",
+      "tags":["Motion Design / Illustration"],
+      "desc":"A series of personal fashion/editorial inspired illustrations.",
+      "visible":true},
+
       {"index":"artifice",
        "name":"Artifact/Artifice",
        "tags":["Publication / 3D"],

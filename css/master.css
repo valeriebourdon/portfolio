@@ -28,7 +28,7 @@ div.hidden {
 }
 
 .masterContainer {
-  display:inline-block;
+  /*display:inline-block;*/
   position:relative;
 	margin:0 auto;
   margin-top:5.5vh;
