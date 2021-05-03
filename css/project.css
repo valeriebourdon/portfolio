@@ -67,6 +67,25 @@
    padding-bottom: 1px;
  }
 
+ .imgSmallL {
+   display: block;
+   width: 100%;
+   grid-column: 3 / 8;
+   padding: 0;
+   margin: 0;
+   padding-top: 1px;
+   padding-bottom: 60px;
+ }
+ .imgSmallR {
+   display: block;
+   width: 100%;
+   grid-column: 7 / 11;
+   padding: 0;
+   margin: 0;
+   padding-top: 1px;
+   padding-bottom: 60px;
+ }
+
  a {
    text-decoration:underline;
  }
