@@ -121,6 +121,14 @@
    .projHover, .projList {
      grid-column: 3 / 8;
    }
+
+  .imgSmallL, .imgSmallR {
+    grid-column: 3 / 8;
+    padding: 0;
+    margin: 0;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
  }
 
  @media (max-width:740px){
@@ -171,5 +179,13 @@
    .nextProject {
      padding-top:4vh;
      padding-bottom:2vh;
+   }
+
+   .imgSmallL, .imgSmallR {
+     grid-column: 1 / 6;
+     padding: 0;
+     margin: 0;
+     padding-top: 1px;
+     padding-bottom: 1px;
    }
  }
