@@ -5,7 +5,7 @@ let projectList = {
      "name":"Unity Rebrand",
      "tags":["Motion Design"],
      "desc":"Unity Technologies is a real-time development platform that allows creators to build applications and immersive experiences.",
-     "visible":false},
+     "visible":true},
 
     {"index":"present",
      "name":"Present Magazine",
