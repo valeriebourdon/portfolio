@@ -78,13 +78,13 @@ let projectList = {
      "name":"Step Forward",
      "tags":["Exhibition Design"],
      "desc":"Graphic design vernissage poster and art direction for the graduating class of 2016 at Dawson College.",
-     "visible":true},
+     "visible":false},
 
      {"index":"pictureperfect",
       "name":"Picture Perfect",
       "tags":["Motion Design"],
       "desc":"Picture Perfect is a short motion piece that summarizes the evolution of the camera.",
-      "visible":true},
+      "visible":false},
 
       {"index":"logistec",
        "name":"Logistec",
