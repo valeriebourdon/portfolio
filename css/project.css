@@ -22,17 +22,21 @@
 
 .projHover, .projList {
   grid-column: 3 / 12;
-  font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
-  font-weight: 300;
+  /*font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
+  font-weight: 300;*/
+  font-family: gopher, sans-serif;
+  font-weight: 400;
   letter-spacing:.1px;
   padding-top:12px;
   padding-bottom:7vh;
 }
 
 .notesName {
-  font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
   grid-column: 3 / 3;
-  font-weight: 300;
+  /*font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
+  font-weight: 300;*/
+  font-family: gopher, sans-serif;
+  font-weight: 400;
   letter-spacing:.1px;
   padding-bottom: 6vh;
 }
@@ -44,7 +48,6 @@
 .notesDesc {
   font-size: 17px;
   line-height: 1.4;
-  font-weight: 300;
   grid-column: 4 / 11;
   padding-bottom:4vh;
   letter-spacing:-.05px;

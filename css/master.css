@@ -1,4 +1,4 @@
-@font-face{
+/*@font-face{
 	font-family: 'HKGrotesk-Regular';
 	src: url('HKGrotesk-Regular.eot');
 	src: url('HKGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
@@ -6,21 +6,38 @@
 	     url('HKGrotesk-Regular.ttf') format('truetype'),
 	     url('HKGrotesk-Regular.svg#webfont') format('svg');
 }
+*/
 
 html{
   scroll-behavior: smooth;
 }
 
-body {
-  background: #F7F7FA; /*F7F7FA*/
-  color:#464650; /*464650*/
+body, button {
+  background: #252728; /*F4F4F4*/
+  color:#F4F4F4; /*252728*/
   margin:0;
   padding:0;
-  font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
-  font-weight: Regular;
+  /*font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
+	font-weight: Regular;*/
+	font-family: gopher, sans-serif;
+	font-weight: 400;
+	font-style: normal;
   font-size:12px;
   line-height:1.2;
   letter-spacing: 1;
+}
+
+button {
+  border: none;
+  padding: 0;
+  background: none;
+  transition: .25s;
+}
+
+button:hover {
+  transition: 1s;
+  color:#BABABA;
+  transition: .25s;
 }
 
 div.hidden {
@@ -42,19 +59,19 @@ div.hidden {
 
 /* LINKS / SELECTIONS */
 a {
-  color:#464650;
+  color:#F4F4F4;
   text-decoration:none;
   transition: .25s;
 }
 
 a:hover {
-  color:#ccc;
+  color:#777777;
   transition: .25s;
 }
 
 ::selection {
-  background-color:#464650;
-  color:#F7F7FA;
+  background-color:#f4f4f4;
+  color:#252728;
 }
 
 /* SCROLL BAR */
