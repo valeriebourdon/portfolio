@@ -30,9 +30,6 @@
 
 .projTag {
   display:inline;
-  /*font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
-  font-weight:300;*/
-	font-family: gopher, sans-serif;
 	font-weight: 400;
   font-size:12px;
   letter-spacing:.1px;

@@ -8,19 +8,26 @@
 }
 */
 
+@font-face {
+font-family: "pp_moriregular";
+src: url("https://valeriebourdon.com/font/PPMori-Regular.otf");
+src: url("https://valeriebourdon.com/font/PPMori-Regular.woff") format("woff"),
+url("https://valeriebourdon.com/font/PPMori-Regular.otf") format("opentype"),
+url("https://valeriebourdon.com/font/PPMori-Regular.svg#filename") format("svg");
+}
+
+
 html{
   scroll-behavior: smooth;
 }
 
 body, button {
-  background: #252728; /*F4F4F4*/
-  color:#F4F4F4; /*252728*/
+  background: #e6e6e6; /*F4F4F4*/
+  color:#252728; /*252728*/
   margin:0;
   padding:0;
-  /*font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
-	font-weight: Regular;*/
-	font-family: gopher, sans-serif;
-	font-weight: 400;
+  font-family: 'WebFont', 'pp_moriregular', sans-serif;
+	font-weight: Regular;
 	font-style: normal;
   font-size:12px;
   line-height:1.2;
@@ -59,7 +66,7 @@ div.hidden {
 
 /* LINKS / SELECTIONS */
 a {
-  color:#F4F4F4;
+  color:#252728;
   text-decoration:none;
   transition: .25s;
 }
@@ -70,7 +77,7 @@ a:hover {
 }
 
 ::selection {
-  background-color:#f4f4f4;
+  background-color:#252728;
   color:#252728;
 }
 

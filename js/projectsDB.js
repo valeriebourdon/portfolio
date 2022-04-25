@@ -166,7 +166,7 @@ let projectList = {
 
     {"index":"digitalphotography",
      "name":"Bliss",
-     "tags":["Digital Photography"],
+     "tags":["Photography"],
      "desc":"A short photo series exploring blissful moments, the ephemeral, and anonymity.",
      "visible":true},
 
@@ -174,7 +174,7 @@ let projectList = {
      "name":"Ephemera",
      "tags":["Film Photography"],
      "desc":"A short photo series exploring light and translucency.",
-     "visible":true},
+     "visible":false},
 
      {"index":"2d3d",
       "name":"2D/3D Studio",

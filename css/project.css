@@ -22,9 +22,6 @@
 
 .projHover, .projList {
   grid-column: 3 / 12;
-  /*font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
-  font-weight: 300;*/
-  font-family: gopher, sans-serif;
   font-weight: 400;
   letter-spacing:.1px;
   padding-top:12px;
@@ -33,9 +30,6 @@
 
 .notesName {
   grid-column: 3 / 3;
-  /*font-family: 'WebFont', 'HKGrotesk-Regular', sans-serif;
-  font-weight: 300;*/
-  font-family: gopher, sans-serif;
   font-weight: 400;
   letter-spacing:.1px;
   padding-bottom: 6vh;
