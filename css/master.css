@@ -10,10 +10,10 @@
 
 @font-face {
 font-family: "pp_moriregular";
-src: url("https://valeriebourdon.com/font/PPMori-Regular.otf");
-src: url("https://valeriebourdon.com/font/PPMori-Regular.woff") format("woff"),
-url("https://valeriebourdon.com/font/PPMori-Regular.otf") format("opentype"),
-url("https://valeriebourdon.com/font/PPMori-Regular.svg#filename") format("svg");
+src: url("/font/PPMori-Regular.otf");
+src: url("/font/ppmori-regular-webfont.woff") format("woff"),
+url("/font/ppmori-regular-webfont.otf") format("opentype"),
+url("/font/PPMori-Regular.svg#filename") format("svg");
 }
 
 
