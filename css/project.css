@@ -3,12 +3,15 @@
 }
 
 .notesName, .projHover, .projList {
+  font-family: 'stolzl', sans-serif;
   font-size:12px;
   line-height:1.5;
   font-weight: 300;
 }
 
 .projDesc, .nextProject, .img, .procDesc {
+  font-family: 'stolzl', sans-serif;
+  font-weight: 300;
   display:block;
   width:100%;
   height:auto;
@@ -22,6 +25,7 @@
 
 .projHover, .projList {
   grid-column: 3 / 12;
+  font-family: 'gopher', sans-serif;
   font-weight: 400;
   letter-spacing:.1px;
   padding-top:12px;
@@ -30,6 +34,7 @@
 
 .notesName {
   grid-column: 3 / 3;
+  font-family: 'gopher', sans-serif;
   font-weight: 400;
   letter-spacing:.1px;
   padding-bottom: 6vh;
@@ -40,8 +45,10 @@
 }
 
 .notesDesc {
+  font-family: 'stolzl', sans-serif;
+  font-weight: 300;
   font-size: 17px;
-  line-height: 1.4;
+  line-height: 1.5;
   grid-column: 4 / 11;
   padding-bottom:4vh;
   letter-spacing:-.05px;
