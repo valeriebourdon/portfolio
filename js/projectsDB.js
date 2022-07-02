@@ -13,22 +13,22 @@ let projectList = {
      "desc":"Animated case study created for Banque Nationale's biannual magazine 'Present' following the theme of movement.",
      "visible":true},
 
-    {"index":"obsidian",
-     "name":"Obsidian",
-     "tags":["Motion Design / Interactive Installation"],
-     "desc":"Obsidian is a cross-medium, user-generated interactive experience.",
-     "visible":true},
-
-     {"index":"pow",
-      "name":"POW",
-      "tags":["Motion Design"],
-      "desc":"Kinetic typography and motion design within a promotional video for Protect Our Winters Canada (POW), a non-profit fighting climate change.",
-      "visible":true},
-
      {"index":"tag",
       "name":"TAG Conference",
       "tags":["Motion Design"],
       "desc":"Motion teaser created for TAG, a Canadian annual conference about commerce in the digital age.",
+      "visible":true},
+
+     {"index":"pow",
+      "name":"POW / Fact Avalanche",
+      "tags":["Motion Design"],
+      "desc":"Kinetic typography and motion design for Protect Our Winters Canada (POW), a non-profit fighting climate change.",
+      "visible":true},
+
+      {"index":"novarose",
+      "name":"Nova Rose",
+      "tags":["Branding / Photography"],
+      "desc":"Photography, single covers, and promotional material for Montreal-based singer Nova Rose.",
       "visible":true},
 
      {"index":"twocities",
@@ -37,12 +37,23 @@ let projectList = {
        "desc":"Two Cities is a miniature black and white film photo series capturing familiarities within unfamiliar environments.",
        "visible":true},
 
-      {"index":"novarose",
-      "name":"Nova Rose",
-      "tags":["Branding / Photography"],
-      "desc":"Photography, album cover, and promotional material for Montreal-based singer Nova Rose's song 'Just In Case'.",
+     {"index":"powUSA",
+      "name":"POW / The Outdoor State",
+      "tags":["Motion Design"],
+      "desc":"Kinetic typography and motion design for Protect Our Winters USA (POW), a non-profit fighting climate change.",
       "visible":false},
 
+      {"index":"obsidian",
+       "name":"Obsidian",
+       "tags":["Motion Design / Interactive Installation"],
+       "desc":"Obsidian is a cross-medium, user-generated interactive experience.",
+       "visible":true},
+
+      {"index":"studioloco",
+       "name":"Studio Loco",
+       "tags":["Brand Identity"],
+       "desc":"A refreshed and modernized logo and branding mockup for Studio Loco, a recording studio in Montreal.",
+       "visible":true},
 
       {"index":"motion",
       "name":"Motion Dailies",
@@ -61,12 +72,6 @@ let projectList = {
        "tags":["Publication / 3D"],
        "desc":"Artifact/Artifice is an afictional publication documenting abstractions of our current day plastic commodities.",
        "visible":true},
-
-    {"index":"studioloco",
-     "name":"Studio Loco",
-     "tags":["Brand Identity"],
-     "desc":"A refreshed and modernized logo and branding mockup for Studio Loco, a recording studio in Montreal.",
-     "visible":true},
 
     {"index":"typeseries",
      "name":"Type Series",
