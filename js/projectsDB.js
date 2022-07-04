@@ -7,6 +7,12 @@ let projectList = {
      "desc":"Unity Technologies is a real-time development platform that allows creators to build applications and immersive experiences.",
      "visible":true},
 
+     {"index":"unitytoolkits",
+      "name":"Unity Toolkits",
+      "tags":["Motion Design"],
+      "desc":"Unity's motion toolkits set a consistent visual language for animation across the  brand, for use in promotional videos, tutorials, product showcases, and social media posts.",
+      "visible":false},
+
     {"index":"present",
      "name":"Present Magazine",
      "tags":["Motion Design"],
@@ -31,17 +37,17 @@ let projectList = {
       "desc":"Photography, single covers, and promotional material for Montreal-based singer Nova Rose.",
       "visible":true},
 
+     {"index":"powUSA",
+      "name":"POW / The Outdoor State",
+      "tags":["Motion Design"],
+      "desc":"Kinetic typography and motion design for Protect Our Winters USA (POW), a non-profit fighting climate change.",
+      "visible":true},
+
      {"index":"twocities",
        "name":"Two Cities",
        "tags":["Publication / Film Photography"],
        "desc":"Two Cities is a miniature black and white film photo series capturing familiarities within unfamiliar environments.",
        "visible":true},
-
-     {"index":"powUSA",
-      "name":"POW / The Outdoor State",
-      "tags":["Motion Design"],
-      "desc":"Kinetic typography and motion design for Protect Our Winters USA (POW), a non-profit fighting climate change.",
-      "visible":false},
 
       {"index":"obsidian",
        "name":"Obsidian",
