@@ -10,8 +10,8 @@ let projectList = {
      {"index":"unitytoolkits",
       "name":"Unity Toolkits",
       "tags":["Motion Design"],
-      "desc":"Unity's motion toolkits set a consistent visual language for animation across the  brand, for use in promotional videos, tutorials, product showcases, and social media posts.",
-      "visible":false},
+      "desc":"Unity's motion toolkits set a consistent visual language for animation across the  brand.",
+      "visible":true},
 
     {"index":"present",
      "name":"Present Magazine",
