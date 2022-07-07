@@ -37,7 +37,7 @@ let projectList = {
       "desc":"Photography, single covers, and promotional material for Montreal-based singer Nova Rose.",
       "visible":true},
 
-     {"index":"powUSA",
+     {"index":"powusa",
       "name":"POW / The Outdoor State",
       "tags":["Motion Design"],
       "desc":"Kinetic typography and motion design for Protect Our Winters USA (POW), a non-profit fighting climate change.",
