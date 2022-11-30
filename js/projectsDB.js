@@ -26,50 +26,50 @@ let projectList = {
       "visible":true},
 
      {"index":"pow",
-      "name":"POW / Fact Avalanche",
+      "name":"POW Fact Avalanche",
       "tags":["Motion Design"],
       "desc":"Kinetic typography and motion design for Protect Our Winters Canada (POW), a non-profit fighting climate change.",
       "visible":true},
 
       {"index":"novarose",
       "name":"Nova Rose",
-      "tags":["Branding / Photography"],
+      "tags":["Branding"],
       "desc":"Photography, single covers, and promotional material for Montreal-based singer Nova Rose.",
       "visible":true},
 
      {"index":"powusa",
-      "name":"POW / The Outdoor State",
+      "name":"POW The Outdoor State",
       "tags":["Motion Design"],
       "desc":"Kinetic typography and motion design for Protect Our Winters USA (POW), a non-profit fighting climate change.",
       "visible":true},
 
      {"index":"twocities",
        "name":"Two Cities",
-       "tags":["Publication / Film Photography"],
+       "tags":["Publication / Photo"],
        "desc":"Two Cities is a miniature black and white film photo series capturing familiarities within unfamiliar environments.",
        "visible":true},
 
       {"index":"obsidian",
        "name":"Obsidian",
-       "tags":["Motion Design / Interactive Installation"],
+       "tags":["Motion Design"],
        "desc":"Obsidian is a cross-medium, user-generated interactive experience.",
        "visible":true},
 
       {"index":"studioloco",
        "name":"Studio Loco",
-       "tags":["Brand Identity"],
+       "tags":["Brand"],
        "desc":"A refreshed and modernized logo and branding mockup for Studio Loco, a recording studio in Montreal.",
        "visible":true},
 
       {"index":"motion",
       "name":"Motion Dailies",
-      "tags":["Motion Design / Illustration"],
+      "tags":["Motion Design"],
       "desc":"A series of personal motion experiments, exercises, and sketches.",
       "visible":true},
 
       {"index":"motion2",
-      "name":"Illustration Dailies",
-      "tags":["Motion Design / Illustration"],
+      "name":"Doodle Dailies",
+      "tags":["Illustration"],
       "desc":"A series of personal fashion/editorial inspired illustrations.",
       "visible":true},
 
@@ -81,7 +81,7 @@ let projectList = {
 
     {"index":"typeseries",
      "name":"Type Series",
-     "tags":["3D / Typography"],
+     "tags":["3D"],
      "desc":"A personal 3D type series using tone-on-tone textures and contrasting forms.",
      "visible":true},
 
