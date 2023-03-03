@@ -13,6 +13,12 @@ let projectList = {
       "desc":"Unity's motion toolkits set a consistent visual language for animation across the  brand.",
       "visible":true},
 
+      {"index":"bierecredi",
+      "name":"Bièrecredi",
+      "tags":["Illustration"],
+      "desc":"Custom branded beer for Unity's happy hour.",
+      "visible":true},
+
     {"index":"present",
      "name":"Present Magazine",
      "tags":["Motion"],
@@ -36,7 +42,6 @@ let projectList = {
       "tags":["Motion"],
       "desc":"Kinetic typography and Motion for Protect Our Winters USA (POW), a non-profit fighting climate change.",
       "visible":true},
-
 
       {"index":"novarose",
       "name":"Nova Rose",
