@@ -7,7 +7,7 @@
 }
 
  .Nice2MeetU {
-   display:inline;
+   display:block;
    font-family: swear-text-cilati, serif;
    font-weight: 500;
    font-style: italic;
@@ -17,6 +17,7 @@
 .homeDesc {
   padding-bottom:6vh;
 }
+
 
 .projHover {
   display:inline;
@@ -95,7 +96,7 @@ img {
 }
 
 
-@media (max-width:900px){
+@media (max-width:1000px){
   .homeDesc, .projHover, .projList {
     grid-column: 1 / 6;
     font-size:32px;
@@ -119,7 +120,7 @@ img {
   }
 }
 
-@media (max-width:600px){
+@media (max-width:700px){
   .homeDesc, .projHover, .projList {
     grid-column: 1 / 6;
     font-size:26px;

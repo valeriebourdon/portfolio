@@ -73,7 +73,7 @@ function changeHeight(menuHeight) {
   }
 }
 
-var menuHeight = window.matchMedia("(max-width: 900px)")
+var menuHeight = window.matchMedia("(max-width: 1000px)")
 changeHeight(menuHeight) // Call listener function at run time
 menuHeight.addListener(changeHeight) // Attach listener function on state changes
 

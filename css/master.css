@@ -66,8 +66,8 @@ a:hover {
 }
 
 ::selection {
-  background-color:#252728;
-  color:#252728;
+  background-color:#cfff4d;
+  color:#5d8000;
 }
 
 /* SCROLL BAR */
@@ -119,7 +119,7 @@ a:hover {
 }
 
 
-@media (max-width:900px){
+@media (max-width:1000px){
   body {
     font-size:13px;
   }
@@ -156,7 +156,7 @@ a:hover {
 }
 
 
-@media (max-width:600px){
+@media (max-width:700px){
   body {
     font-size:12px;
   }
