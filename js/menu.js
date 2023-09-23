@@ -7,6 +7,7 @@ topleft.style.position = "fixed";
 topleft.style.textAlign = "left";
 topleft.style.zIndex = "100";
 topleft.style.textDecoration = "none";
+topleft.style.color = "#f0f0f5"
 topleft.href = "index.html";
 
 // TOP RIGHT
@@ -18,6 +19,7 @@ topright.style.position = "fixed";
 topright.style.textAlign = "right";
 topright.style.zIndex = "100";
 topright.style.textDecoration = "none";
+topright.style.color = "#f0f0f5"
 topright.href = "about.html";
 
 // BOTTOM LEFT
@@ -29,6 +31,7 @@ botleft.style.position = "fixed";
 botleft.style.textAlign = "left";
 botleft.style.zIndex = "100";
 botleft.style.textDecoration = "none";
+botleft.style.color = "#f0f0f5"
 botleft.href = "index.html";
 
 
@@ -41,6 +44,7 @@ botright.style.textAlign = "right";
 botright.style.height = "auto";
 botright.style.zIndex = "100";
 botright.style.textDecoration = "none";
+botright.style.color = "#f0f0f5"
 botright.class = "colourSelect";
 
 function changeHeight(menuHeight) {
@@ -67,7 +71,7 @@ function changeHeight(menuHeight) {
    botleft.style.left = widthAmount;
    botright.style.bottom = heightAmount;
    botright.style.right = widthAmount;
-   botright.style.width = "25px";
+   botright.style.width = "27px";
    botleft.style.display = "block";
    botright.style.display = "block";
   }

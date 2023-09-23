@@ -83,6 +83,12 @@ img {
   transition:.2s;
 }
 
+.notesDesc {
+  padding-top:2vh;
+  line-height:1.2;
+  font-size: 25px;
+}
+
 
 @media (max-width:1500px){
   .homeDesc, .projHover, .projList {
@@ -92,6 +98,10 @@ img {
 
   .Nice2MeetU {
     font-size:42px;
+  }
+
+  .notesDesc {
+    font-size: 20px;
   }
 }
 
@@ -118,12 +128,16 @@ img {
   .projHover:hover img {
     display:none;
   }
+
+  .notesDesc {
+    font-size: 16px;
+  }
 }
 
 @media (max-width:700px){
   .homeDesc, .projHover, .projList {
     grid-column: 1 / 6;
-    font-size:26px;
+    font-size:24px;
   }
 
   .Nice2MeetU {
@@ -131,16 +145,16 @@ img {
   }
 
   .homeDesc {
-    padding-bottom:3vh;
+    padding-bottom:4vh;
   }
 
   .projList {
     line-height:1.4;
-    padding-bottom: 1vh;
+    padding-bottom: 1.5vh;
   }
 
   .projTag {
-    font-size:17px;
+    font-size:18px;
   }
 
   .projHover:hover img {
