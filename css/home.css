@@ -1,10 +1,10 @@
 .homeDesc, .projHover, .projList {
   font-family: stolzl, sans-serif;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.25;
   display:block;
-  font-size:30px;
-  grid-column: 3 / 12;
+  font-size:38px;
+  grid-column: 4 / 11;
   text-align: left;
 }
 
@@ -25,7 +25,7 @@
   font-family: gopher, sans-serif;
   font-weight: 400;
   display:inline;
-  font-size:12px;
+  font-size:14px;
   letter-spacing:.1px;
 }
 
@@ -75,21 +75,40 @@ img {
   transition:.2s;
 }
 
-@media (max-width:1200px) {
-  .homeDesc, .projHover, .projList {
-    font-size:26px;
-  }
 
-}
-
-@media (max-width:1000px){
+@media (max-width:1500px){
   .homeDesc, .projHover, .projList {
     grid-column: 3 / 8;
-    font-size:24px;
+    font-size:32px;
   }
 }
 
-@media (max-width:740px){
+
+@media (max-width:900px){
+  .homeDesc, .projHover, .projList {
+    grid-column: 1 / 6;
+    font-size:24px;
+  }
+
+  .homeDesc {
+    padding-bottom:3vh;
+  }
+
+  .projList {
+    line-height:1.5;
+    padding-bottom: 1vh;
+  }
+
+  .projTag {
+    font-size:12px;
+  }
+
+  .projHover:hover img {
+    display:none;
+  }
+}
+
+@media (max-width:600px){
   .homeDesc, .projHover, .projList {
     grid-column: 1 / 6;
     font-size:20px;

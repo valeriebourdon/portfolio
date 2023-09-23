@@ -10,8 +10,8 @@ body, button {
   font-family: gopher, sans-serif;
   font-weight: 400;
 	font-style: normal;
-  font-size:12px;
-  line-height:1.4;
+  font-size:14px;
+  line-height:1.3;
   letter-spacing: 1;
 }
 
@@ -102,12 +102,7 @@ a:hover {
 }
 
 
-@media (max-width:1000px){
-  body {
-    font-size:12px;
-    line-height: 1.3;
-  }
-
+@media (max-width:1500px){
   .masterGrid {
     grid-template-columns: repeat(9, 1fr);
 		margin: 0;
@@ -115,10 +110,47 @@ a:hover {
   }
 }
 
-@media (max-width:740px){
+
+@media (max-width:900px){
+  body {
+    font-size:12.5px;
+  }
+
+  .masterGrid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .masterContainer {
+    display:inline-block;
+    position:relative;
+    margin-top:8vh;
+    margin-left:6vw;
+    margin-right:6vw;
+  }
+
+	.fullscreenFrame {
+		height: auto;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+		overflow: hidden;
+		background-color: black;
+	}
+
+	.fullscreenPic {
+		position: relative;
+		display: block;
+		height: auto;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
+}
+
+
+@media (max-width:600px){
   body {
     font-size:11px;
-    line-height: 1.3;
   }
 
   .masterGrid {

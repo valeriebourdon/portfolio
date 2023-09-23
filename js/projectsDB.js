@@ -65,7 +65,7 @@ let projectList = {
        "name":"Studio Loco",
        "tags":["Branding"],
        "desc":"A refreshed and modernized logo and branding pitch for Studio Loco, a recording studio in Montreal.",
-       "visible":true},
+       "visible":false},
 
       {"index":"motion",
       "name":"Motion Dailies",

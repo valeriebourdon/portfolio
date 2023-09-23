@@ -1,10 +1,10 @@
 .projDesc, .nextProject, .procDesc {
-  font-size:31px;
+  font-size:46px;
 }
 
 .notesName, .projHover, .projList {
   font-family: 'stolzl', sans-serif;
-  font-size:12px;
+  font-size:14px;
   line-height:1.5;
   font-weight: 300;
 }
@@ -15,7 +15,7 @@
   display:block;
   width:100%;
   height:auto;
-  grid-column: 3 / 12;
+  grid-column: 4 / 11;
   text-align:left;
 }
 
@@ -24,16 +24,16 @@
 }
 
 .projHover, .projList {
-  grid-column: 3 / 12;
+  grid-column: 4 / 11;
   font-family: 'gopher', sans-serif;
   font-weight: 400;
   letter-spacing:.1px;
-  padding-top:12px;
-  padding-bottom:7vh;
+  padding-top:20px;
+  padding-bottom:6vh;
 }
 
 .notesName {
-  grid-column: 3 / 3;
+  grid-column: 4 / 4;
   font-family: 'gopher', sans-serif;
   font-weight: 400;
   letter-spacing:.1px;
@@ -47,16 +47,16 @@
 .notesDesc {
   font-family: 'stolzl', sans-serif;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.5;
-  grid-column: 4 / 11;
+  grid-column: 5 / 10;
   padding-bottom:4vh;
   letter-spacing:-.05px;
 }
 
 .buffer {
-  grid-column: 3 / 12;
-  padding-bottom:12vh;
+  grid-column: 4 / 11;
+  padding-bottom:6vh;
 }
 
 .nextProject {
@@ -95,9 +95,9 @@
  }
 
 
- @media (max-width:1000px){
+ @media (max-width:1500px){
    .projDesc, .nextProject, .img, .procDesc {
-     font-size: 25px;
+     font-size: 32px;
    }
 
    .projDesc, .nextProject, .img, .procDesc {
@@ -135,13 +135,13 @@
   }
  }
 
- @media (max-width:740px){
+ @media (max-width:900px){
    .projDesc, .nextProject, .img, .procDesc {
-     font-size:20px;
+     font-size:32px;
    }
 
    .projHover, .projList  {
-     font-size:11px;
+     font-size:12.5px;
      line-height:1.5;
    }
 
