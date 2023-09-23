@@ -62,7 +62,7 @@ if (incrementedIndex == sortedVisibleProject.length) {
 }
 
 //populate page with link, project name and tag with arrow
-next += "<a style='text-decoration:none;' href='" + sortedVisibleProject[incrementedIndex].index + ".html'>" + sortedVisibleProject[incrementedIndex].name + " →" + "</a>";
+next += "<a style='text-decoration:none;color:#f0f0f5' href='" + sortedVisibleProject[incrementedIndex].index + ".html'>" + sortedVisibleProject[incrementedIndex].name + " →" + "</a>";
 $(".nextProject").append(next);
 
 //DEBUG
