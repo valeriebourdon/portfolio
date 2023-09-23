@@ -1,6 +1,6 @@
 // TOP LEFT
 var topleft = document.createElement("a");
-var linkText = document.createTextNode("Valerie Bourdon");
+var linkText = document.createTextNode("VALERIE BOURDON");
 topleft.appendChild(linkText);
 topleft.style.display = "block";
 topleft.style.position = "fixed";
@@ -11,7 +11,7 @@ topleft.href = "index.html";
 
 // TOP RIGHT
 var topright = document.createElement("a");
-var linkText2 = document.createTextNode("About");
+var linkText2 = document.createTextNode("ABOUT");
 topright.appendChild(linkText2);
 topright.style.display = "block";
 topright.style.position = "fixed";
@@ -22,7 +22,7 @@ topright.href = "about.html";
 
 // BOTTOM LEFT
 var botleft = document.createElement("a");
-var linkText3 = document.createTextNode("Projects");
+var linkText3 = document.createTextNode("WORK");
 botleft.appendChild(linkText3);
 botleft.style.display = "block";
 botleft.style.position = "fixed";
