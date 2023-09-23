@@ -1,3 +1,42 @@
+/*reel*/
+.sizzleReel {
+  width: 100%;
+  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  margin:0;
+  overflow: hidden;
+  background-image: url("https://www.valeriebourdon.com/img/bierecredi/beer8.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gradient {
+  position:absolute;
+  width: 100vw;
+  height: 100vh;
+  margin:0;
+  background-color: rgba(0,0,0,0);
+  background:linear-gradient(180deg, rgba(31,30,32,0) 80%,  #1f1e20 99%),
+             linear-gradient(10deg, rgba(0,0,0,0), rgba(0,0,0,0) 60%,  rgba(31,30,32,.2) 100%),
+             linear-gradient(350deg, rgba(0,0,0,0), rgba(0,0,0,0) 60%,  rgba(31,30,32,.2) 100%),
+             url("img/noise.svg");
+  z-index: 100;
+}
+
+/*
+iframe {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+*/
+
+/*body*/
 .homeDesc, .projHover, .projList {
   line-height: 1.2;
   display:block;

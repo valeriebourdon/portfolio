@@ -109,7 +109,6 @@ a:hover {
 	padding: 0;
 }
 
-
 @media (max-width:1500px){
   .masterGrid {
     grid-template-columns: repeat(9, 1fr);
