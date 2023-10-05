@@ -65,7 +65,7 @@ let projectList = {
        "name":"Obsidian",
        "tags":["Motion"],
        "desc":"Obsidian is a cross-medium, user-generated interactive experience.",
-       "visible":true},
+       "visible":false},
 
       {"index":"studioloco",
        "name":"Studio Loco",
