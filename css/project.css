@@ -60,11 +60,15 @@
   padding-bottom:6vh;
 }
 
- .img, img {
+ .img, img, video {
    padding: 0;
    margin: 0;
    padding-top: 0;
    padding-bottom: 4px;
+ }
+
+ video {
+   width:100%;
  }
 
  .imgSmallL {

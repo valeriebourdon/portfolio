@@ -1,6 +1,12 @@
 //PORJECT LIST
 let projectList = {
   "projects": [
+    {"index":"meta",
+     "name":"Meta: It's Your World",
+     "tags":["Motion"],
+     "desc":"Building a motion identity and guidelines for Meta’s 2023 brand campaign.",
+     "visible":true},
+
     {"index":"unityrebrand",
      "name":"Unity Rebrand",
      "tags":["Motion"],
@@ -10,7 +16,7 @@ let projectList = {
      {"index":"unitytoolkits",
       "name":"Unity Toolkits",
       "tags":["Motion"],
-      "desc":"Unity's motion toolkits set a consistent visual language for animation across the  brand.",
+      "desc":"Unity's motion toolkits set a consistent visual language for animation across the brand.",
       "visible":true},
 
       {"index":"bierecredi",
@@ -20,7 +26,7 @@ let projectList = {
       "visible":true},
 
     {"index":"present",
-     "name":"Present Magazine",
+     "name":"National Bank: Magazine",
      "tags":["Motion"],
      "desc":"Animated case study created for Banque Nationale's biannual magazine 'Present' following the theme of movement.",
      "visible":true},
