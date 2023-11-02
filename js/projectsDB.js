@@ -1,11 +1,23 @@
 //PORJECT LIST
 let projectList = {
   "projects": [
-    {"index":"meta",
-     "name":"Meta: It's Your World",
+    {"index":"next23",
+     "name":"Google: Next 23",
      "tags":["Motion"],
-     "desc":"Building a motion identity and guidelines for Meta’s 2023 brand campaign.",
+     "desc":"Building a motion identity and guidelines for Google Next '23.",
      "visible":true},
+
+     {"index":"meta",
+      "name":"Meta: It's Your World",
+      "tags":["Motion"],
+      "desc":"Building a motion identity and guidelines for Meta’s 2023 brand campaign.",
+      "visible":true},
+
+     {"index":"vuckorebrand",
+      "name":"Vucko Rebrand",
+      "tags":["Motion"],
+      "desc":"Building a motion identity and guidelines for Vucko.",
+      "visible":true},
 
     {"index":"unityrebrand",
      "name":"Unity Rebrand",
@@ -20,13 +32,13 @@ let projectList = {
       "visible":true},
 
       {"index":"bierecredi",
-      "name":"Bièrecredi",
+      "name":"Unity Bièrecredi",
       "tags":["Illustration"],
       "desc":"Custom branded beer for Unity's happy hour.",
       "visible":true},
 
     {"index":"present",
-     "name":"National Bank: Magazine",
+     "name":"National Bank Magazine",
      "tags":["Motion"],
      "desc":"Animated case study created for Banque Nationale's biannual magazine 'Present' following the theme of movement.",
      "visible":true},
