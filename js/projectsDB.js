@@ -2,7 +2,7 @@
 let projectList = {
   "projects": [
     {"index":"next23",
-     "name":"Google: Next 23",
+     "name":"Google Next 23",
      "tags":["Motion"],
      "desc":"Building a motion identity and guidelines for Google Next '23.",
      "visible":true},
@@ -36,6 +36,12 @@ let projectList = {
       "tags":["Illustration"],
       "desc":"Custom branded beer for Unity's happy hour.",
       "visible":true},
+
+      {"index":"tidal",
+       "name":"TIDAL Motion Ecosystem",
+       "tags":["Motion"],
+       "desc":"The world’s premier music streaming service, featuring lossless audio and high-fidelity sound.",
+       "visible":true},
 
     {"index":"present",
      "name":"National Bank Magazine",
