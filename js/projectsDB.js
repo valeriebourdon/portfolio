@@ -1,6 +1,12 @@
 //PORJECT LIST
 let projectList = {
   "projects": [
+    {"index":"wrapped23",
+     "name":"Spotify Wrapped 23",
+     "tags":["Motion"],
+     "desc":"Delivering a new, playful motion identity and system for Spotify’s 2023 Wrapped campaign.",
+     "visible":true},
+
     {"index":"next23",
      "name":"Google Next 23",
      "tags":["Motion"],
