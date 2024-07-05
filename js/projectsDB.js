@@ -2,13 +2,13 @@
 let projectList = {
   "projects": [
     {"index":"wrapped23",
-     "name":"Spotify Wrapped 23",
+     "name":"Spotify Wrapped '23",
      "tags":["Motion"],
      "desc":"Delivering a new, playful motion identity and system for Spotify’s 2023 Wrapped campaign.",
      "visible":true},
 
     {"index":"next23",
-     "name":"Google Next 23",
+     "name":"Google Next '23",
      "tags":["Motion"],
      "desc":"Building a motion identity and guidelines for Google Next '23.",
      "visible":true},
@@ -31,6 +31,19 @@ let projectList = {
      "desc":"Unity Technologies is a real-time development platform that allows creators to build applications and immersive experiences.",
      "visible":true},
 
+     {"index":"fractal",
+      "name":"Fractal",
+      "tags":["Branding"],
+      "desc":"Fractal Engines is an emerging Miami-based start-up focused on music festival logistics and optimization.",
+      "visible":true},
+
+      {"index":"artistplusplus",
+       "name":"Artist++",
+       "tags":["Branding"],
+       "desc":"Artist++ is a Tesla fleet logistics service for high profile talent agencies.",
+       "visible":true},
+
+
      {"index":"unitytoolkits",
       "name":"Unity Toolkits",
       "tags":["Motion"],
@@ -44,7 +57,7 @@ let projectList = {
       "visible":true},
 
       {"index":"tidal",
-       "name":"TIDAL Motion Ecosystem",
+       "name":"TIDAL",
        "tags":["Motion"],
        "desc":"The world’s premier music streaming service, featuring lossless audio and high-fidelity sound.",
        "visible":true},
@@ -77,7 +90,7 @@ let projectList = {
       "name":"Nova Rose",
       "tags":["Branding"],
       "desc":"Photography, single covers, and promotional material for Montreal-based singer Nova Rose.",
-      "visible":true},
+      "visible":false},
 
      {"index":"twocities",
        "name":"Two Cities",
