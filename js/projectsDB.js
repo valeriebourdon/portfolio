@@ -7,6 +7,12 @@ let projectList = {
      "desc":"Delivering a new, playful motion identity and system for Spotify’s 2023 Wrapped campaign.",
      "visible":true},
 
+     {"index":"next24",
+     "name":"Google Next '24",
+     "tags":["Motion"],
+     "desc":"Building a motion identity and guidelines for Google Next '24.",
+     "visible":true},
+
     {"index":"next23",
      "name":"Google Next '23",
      "tags":["Motion"],
