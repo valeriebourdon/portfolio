@@ -128,6 +128,19 @@ img {
   font-size: 25px;
 }
 
+/* TEST */
+.parent {
+  width: A px;
+  height: B px;
+  overflow: hidden;
+}
+
+.child {
+ width: 100%; 
+ height: (greater_than_B) px;
+ overflow-x: auto;
+}
+/*END TEST*/
 
 @media (max-width:1500px){
   .homeDesc, .projHover, .projList {
