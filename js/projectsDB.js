@@ -1,22 +1,34 @@
 //PORJECT LIST
 let projectList = {
   "projects": [
+    {"index":"wrapped24",
+     "name":"Spotify Wrapped '24",
+     "tags":["Motion"],
+     "desc":"Capturing the balance of reinvention and familiarity.",
+     "visible":true},
+
     {"index":"wrapped23",
      "name":"Spotify Wrapped '23",
      "tags":["Motion"],
      "desc":"Delivering a new, playful motion identity and system for Spotify’s 2023 Wrapped campaign.",
      "visible":true},
 
-     {"index":"next24",
-     "name":"Google Next '24",
+     {"index":"next25",
+     "name":"Google Cloud Next '25",
      "tags":["Motion"],
-     "desc":"Building a motion identity and guidelines for Google Next '24.",
+     "desc":"Shaping a system that evolves and grows stronger with every event.",
+     "visible":true},
+
+     {"index":"next24",
+     "name":"Google Cloud Next '24",
+     "tags":["Motion"],
+     "desc":"Building a motion identity and guidelines for Google Next 24.",
      "visible":true},
 
     {"index":"next23",
-     "name":"Google Next '23",
+     "name":"Google Cloud Next '23",
      "tags":["Motion"],
-     "desc":"Building a motion identity and guidelines for Google Next '23.",
+     "desc":"Building a motion identity and guidelines for Google Next 23.",
      "visible":true},
 
      {"index":"meta",
