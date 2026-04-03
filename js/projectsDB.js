@@ -1,10 +1,22 @@
 //PORJECT LIST
 let projectList = {
   "projects": [
+    {"index":"next25",
+     "name":"Google Cloud Next '25",
+     "tags":["Motion"],
+     "desc":"Shaping a system that evolves and grows stronger with every event.",
+     "visible":true},
+
     {"index":"wrapped24",
      "name":"Spotify Wrapped '24",
      "tags":["Motion"],
      "desc":"Capturing the balance of reinvention and familiarity.",
+     "visible":true},
+
+    {"index":"next24",
+     "name":"Google Cloud Next '24",
+     "tags":["Motion"],
+     "desc":"Building a motion identity and guidelines for Google Next 24.",
      "visible":true},
 
     {"index":"wrapped23",
@@ -13,22 +25,10 @@ let projectList = {
      "desc":"Delivering a new, playful motion identity and system for Spotify’s 2023 Wrapped campaign.",
      "visible":true},
 
-     {"index":"next25",
-     "name":"Google Cloud Next '25",
+     {"index":"snrg",
+     "name":"SNRG",
      "tags":["Motion"],
-     "desc":"Shaping a system that evolves and grows stronger with every event.",
-     "visible":true},
-
-     {"index":"next24",
-     "name":"Google Cloud Next '24",
-     "tags":["Motion"],
-     "desc":"Building a motion identity and guidelines for Google Next 24.",
-     "visible":true},
-
-    {"index":"next23",
-     "name":"Google Cloud Next '23",
-     "tags":["Motion"],
-     "desc":"Building a motion identity and guidelines for Google Next 23.",
+     "desc":"Building a motion identity a fast-growing, UK based renewable energy company. ",
      "visible":true},
 
      {"index":"meta",
@@ -36,6 +36,12 @@ let projectList = {
       "tags":["Motion"],
       "desc":"Building a motion identity and guidelines for Meta’s 2023 brand campaign.",
       "visible":true},
+
+    {"index":"next23",
+     "name":"Google Cloud Next '23",
+     "tags":["Motion"],
+     "desc":"Building a motion identity and guidelines for Google Next 23.",
+     "visible":true},
 
      {"index":"vuckorebrand",
       "name":"Vucko Rebrand",
@@ -132,19 +138,19 @@ let projectList = {
       "name":"Motion Dailies",
       "tags":["Motion"],
       "desc":"A series of personal motion experiments, exercises, and sketches.",
-      "visible":true},
+      "visible":false},
 
       {"index":"motion2",
       "name":"Doodle Dailies",
       "tags":["Illustration"],
       "desc":"A series of personal fashion/editorial inspired illustrations.",
-      "visible":true},
+      "visible":false},
 
     {"index":"typeseries",
      "name":"Type Series",
      "tags":["3D"],
      "desc":"A personal 3D type series using tone-on-tone textures and contrasting forms.",
-     "visible":true},
+     "visible":false},
 
     {"index":"artifice",
     "name":"Artifact/Artifice",
