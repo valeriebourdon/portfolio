@@ -57,13 +57,13 @@ let projectList = {
 
      {"index":"fractal",
       "name":"Fractal",
-      "tags":["Branding"],
+      "tags":["Brand & Motion"],
       "desc":"Fractal Engines is an emerging Miami-based start-up focused on music festival logistics and optimization.",
       "visible":true},
 
       {"index":"artistplusplus",
        "name":"Artist++",
-       "tags":["Branding"],
+       "tags":["Brand & Motion"],
        "desc":"Artist++ is a Tesla fleet logistics service for high profile talent agencies.",
        "visible":true},
 
